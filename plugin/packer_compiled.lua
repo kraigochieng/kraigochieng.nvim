@@ -89,11 +89,6 @@ _G.packer_plugins = {
     path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/auto-save.nvim",
     url = "https://github.com/Pocco81/auto-save.nvim"
   },
-  ["bufferline.nvim"] = {
-    loaded = true,
-    path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
-    url = "https://github.com/akinsho/bufferline.nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -138,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/neodev.nvim",
     url = "https://github.com/folke/neodev.nvim"
+  },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
   ["nvim-autopairs"] = {
     config = { "\27LJ\2\2@\0\0\2\0\3\0\a6\0\0\0'\1\1\0B\0\2\0029\0\2\0004\1\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
@@ -207,8 +207,13 @@ _G.packer_plugins = {
     path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["prettier.nvim"] = {
+    loaded = true,
+    path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/prettier.nvim",
+    url = "https://github.com/MunifTanjim/prettier.nvim"
+  },
   ["rose-pine"] = {
-    config = { "\27LJ\2\2ª\1\0\0\4\0\t\0\0196\0\0\0009\0\1\0'\1\2\0B\0\2\0016\0\0\0009\0\3\0009\0\4\0)\1\0\0'\2\5\0005\3\6\0B\0\4\0016\0\0\0009\0\3\0009\0\4\0)\1\0\0'\2\a\0005\3\b\0B\0\4\1K\0\1\0\1\0\1\abg\tnone\16NormalFloat\1\0\1\abg\tnone\vNormal\16nvim_set_hl\bapi\26colorscheme rose-pine\bcmd\bvim\0" },
+    config = { "\27LJ\2\2ª\1\0\0\4\0\t\0\0196\0\0\0009\0\1\0009\0\2\0)\1\0\0'\2\3\0005\3\4\0B\0\4\0016\0\0\0009\0\1\0009\0\2\0)\1\0\0'\2\5\0005\3\6\0B\0\4\0016\0\0\0009\0\a\0'\1\b\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\1\0\1\abg\tnone\16NormalFloat\1\0\1\abg\tnone\vNormal\16nvim_set_hl\bapi\bvim\0" },
     loaded = true,
     path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
@@ -250,7 +255,7 @@ try_loadstring("\27LJ\2\2@\0\0\2\0\3\0\a6\0\0\0'\1\1\0B\0\2\0029\0\2\0004\1\0\0B
 time([[Config for nvim-autopairs]], false)
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
-try_loadstring("\27LJ\2\2ª\1\0\0\4\0\t\0\0196\0\0\0009\0\1\0'\1\2\0B\0\2\0016\0\0\0009\0\3\0009\0\4\0)\1\0\0'\2\5\0005\3\6\0B\0\4\0016\0\0\0009\0\3\0009\0\4\0)\1\0\0'\2\a\0005\3\b\0B\0\4\1K\0\1\0\1\0\1\abg\tnone\16NormalFloat\1\0\1\abg\tnone\vNormal\16nvim_set_hl\bapi\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
+try_loadstring("\27LJ\2\2ª\1\0\0\4\0\t\0\0196\0\0\0009\0\1\0009\0\2\0)\1\0\0'\2\3\0005\3\4\0B\0\4\0016\0\0\0009\0\1\0009\0\2\0)\1\0\0'\2\5\0005\3\6\0B\0\4\0016\0\0\0009\0\a\0'\1\b\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\1\0\1\abg\tnone\16NormalFloat\1\0\1\abg\tnone\vNormal\16nvim_set_hl\bapi\bvim\0", "config", "rose-pine")
 time([[Config for rose-pine]], false)
 -- Conditional loads
 time([[Conditional loading of telescope-fzf-native.nvim]], true)

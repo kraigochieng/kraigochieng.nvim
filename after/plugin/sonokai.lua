@@ -1,0 +1,15 @@
+-- vim.cmd([[
+--             " Important!!
+--         if has('termguicolors')
+--           set termguicolors
+--         endif
+--
+--         " The configuration options should be placed before `colorscheme sonokai`.
+--         let g:sonokai_style = 'shusia'
+--         let g:sonokai_better_performance = 1
+--         " let g:sonokai_cursor = 'purple'
+--         let g:sonokai_transparent_background = 1
+--         let g:sonokai_dim_inactive_windows = 1
+--         let g:sonokai_enable_italic = 1
+--         colorscheme sonokai
+-- ]])

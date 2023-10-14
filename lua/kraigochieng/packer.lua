@@ -41,13 +41,16 @@ return require('packer').startup(function(use)
         'rose-pine/neovim',
         as = 'rose-pine',
         config = function()
-            vim.cmd('colorscheme rose-pine')
             -- The configurations are set here also so that when I uppate my packages, the color scheme remains
             vim.api.nvim_set_hl(0, 'Normal', { bg = 'none' })
             vim.api.nvim_set_hl(0, 'NormalFloat', { bg = 'none' })	
+            vim.cmd('colorscheme rose-pine')
         end
     }
 
+    --[[     use 'sainnhe/sonokai' ]]
+    
+--[[     use 'Mofiqul/dracula.nvim' ]]
     -- Nvim Treesitter
     use {
         'nvim-treesitter/nvim-treesitter',
@@ -143,16 +146,20 @@ return require('packer').startup(function(use)
     use 'Pocco81/auto-save.nvim'
     
     -- Buffer Line, this is what appears as tabs
-    use {
-        'akinsho/bufferline.nvim',
-        tag = '*',
-        requires = 'nvim-web-devicons' 
-    }
+    -- use {
+    --     'akinsho/bufferline.nvim',
+    --     tag = '*',
+    --     requires = 'nvim-web-devicons' 
+    -- }
 
     use 'lewis6991/gitsigns.nvim'
 
     use 'christoomey/vim-tmux-navigator'
-    
+
+    use 'jose-elias-alvarez/null-ls.nvim'
+
+    use 'MunifTanjim/prettier.nvim'
+
 use 'mfussenegger/nvim-jdtls'
     -- This should always be at the end of the file
     if packer_bootstrap then

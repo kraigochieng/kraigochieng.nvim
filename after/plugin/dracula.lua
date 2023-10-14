@@ -1,0 +1,13 @@
+-- config
+-- local dracula = require('dracula')
+--
+-- dracula.setup {
+--     colors = {},
+--     show_end_of_buffer = true,
+--     transparent_bg = true,
+--     italic_comment = true,
+--     overrides = {},
+-- }
+--
+-- -- Initialize dracula
+-- vim.cmd([[colorscheme dracula-soft]])
