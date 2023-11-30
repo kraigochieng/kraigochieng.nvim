@@ -81,7 +81,13 @@ local servers = {
     },
     -- .md files
     marksman = {},
-    pylsp = {},
+    pylsp = {
+        plugins = {
+            pyflakes = { enabled = false},
+            mccabe = { enabled = false },
+            mypy = { enabled = false }
+        }
+    },
     sqlls = {},
     -- XML
     lemminx = {},

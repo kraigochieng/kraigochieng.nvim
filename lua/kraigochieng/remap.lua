@@ -11,12 +11,11 @@ vim.keymap.set('v','K', ":m '<-2<CR>gv=gv")
 -- Map undo
 vim.keymap.set('n', '<leader>u', ':u<cr>')
 -- Map redo 
-vim.keymap.set('n', '<leader>r', ':r<cr>')
+vim.keymap.set('n', '<leader>r', ':red<cr>')
 
 -- Make system clipboard usable
 -- Make what is highlighted to be pasted over
 vim.keymap.set('x', '<leader>p', '\"_dP')
-
 
 -- Allow for copying from nvim to system clipboard
 -- vim.keymap.set('n', '<leader>y', '\"+y')

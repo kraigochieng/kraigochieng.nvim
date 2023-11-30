@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["auto-save.nvim"] = {
-    loaded = true,
-    path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/auto-save.nvim",
-    url = "https://github.com/Pocco81/auto-save.nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -108,6 +103,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  harpoon = {
+    loaded = true,
+    path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,

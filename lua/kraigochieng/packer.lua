@@ -26,16 +26,16 @@ return require('packer').startup(function(use)
             {'nvim-lua/plenary.nvim'},
             {
                 'nvim-telescope/telescope-fzf-native.nvim',
-        -- NOTE: If you are having trouble with this installation,
-        --       refer to the README for telescope-fzf-native for more instructions.
-        build = 'make',
-        cond = function()
-          return vim.fn.executable 'make' == 1
-        end,
+                -- NOTE: If you are having trouble with this installation,
+                --       refer to the README for telescope-fzf-native for more instructions.
+                build = 'make',
+                cond = function()
+                    return vim.fn.executable 'make' == 1
+                end,
             }
         } 
     }
-    
+
     -- Rose Pine
     use {
         'rose-pine/neovim',
@@ -49,8 +49,8 @@ return require('packer').startup(function(use)
     }
 
     --[[     use 'sainnhe/sonokai' ]]
-    
---[[     use 'Mofiqul/dracula.nvim' ]]
+
+    --[[     use 'Mofiqul/dracula.nvim' ]]
     -- Nvim Treesitter
     use {
         'nvim-treesitter/nvim-treesitter',
@@ -114,7 +114,7 @@ return require('packer').startup(function(use)
 
     -- For multifile find and replace in a project
     use 'nvim-pack/nvim-spectre'
-    
+
     -- To get a summary of projects in terms of functions, variables, classes, properties, methods e.t.c 
     use 'preservim/tagbar'
 
@@ -143,8 +143,8 @@ return require('packer').startup(function(use)
     }
 
     -- Auto Save feature
-    use 'Pocco81/auto-save.nvim'
-    
+    --[[ use 'Pocco81/auto-save.nvim' ]]
+
     -- Buffer Line, this is what appears as tabs
     -- use {
     --     'akinsho/bufferline.nvim',
@@ -160,7 +160,10 @@ return require('packer').startup(function(use)
 
     use 'MunifTanjim/prettier.nvim'
 
-use 'mfussenegger/nvim-jdtls'
+    use 'mfussenegger/nvim-jdtls'
+
+    use 'ThePrimeagen/harpoon'
+
     -- This should always be at the end of the file
     if packer_bootstrap then
         require('packer').sync()
