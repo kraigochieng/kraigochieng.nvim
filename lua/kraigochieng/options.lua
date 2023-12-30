@@ -45,7 +45,12 @@ vim.o.mouse = 'a'
 -- Setup system and nvim clipboard to be similar
 vim.o.clipboard = 'unnamedplus'
 
-vim.opt.foldmethod = 'manual'
-
+-- Code folding (it has been commented out since nvim-ufo plugin is being iused)
+-- vim.opt.foldmethod = 'expr'
+-- vim.opt.foldcolumn = 1
+-- vim.opt.foldlevel = 20
+-- vim.opt.foldexpr = 'nvim_treesitter#foldexpr()'
+-- vim.opt.foldlevelstart = 99
+-- vim.opt.nofoldenable = true
 -- Autosave buffers
 vim.opt.autowriteall = true
