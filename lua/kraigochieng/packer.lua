@@ -164,6 +164,9 @@ return require('packer').startup(function(use)
 
     use 'ThePrimeagen/harpoon'
 
+    use {
+        'kevinhwang91/nvim-ufo', requires= 'kevinhwang91/promise-async'
+    }
     -- This should always be at the end of the file
     if packer_bootstrap then
         require('packer').sync()
