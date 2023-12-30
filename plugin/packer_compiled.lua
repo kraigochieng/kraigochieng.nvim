@@ -187,6 +187,11 @@ _G.packer_plugins = {
     path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",
     url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
   },
+  ["nvim-ufo"] = {
+    loaded = true,
+    path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/nvim-ufo",
+    url = "https://github.com/kevinhwang91/nvim-ufo"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -211,6 +216,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/prettier.nvim",
     url = "https://github.com/MunifTanjim/prettier.nvim"
+  },
+  ["promise-async"] = {
+    loaded = true,
+    path = "/home/kraigochieng/.local/share/nvim/site/pack/packer/start/promise-async",
+    url = "https://github.com/kevinhwang91/promise-async"
   },
   ["rose-pine"] = {
     config = { "\27LJ\2\2ª\1\0\0\4\0\t\0\0196\0\0\0009\0\1\0009\0\2\0)\1\0\0'\2\3\0005\3\4\0B\0\4\0016\0\0\0009\0\1\0009\0\2\0)\1\0\0'\2\5\0005\3\6\0B\0\4\0016\0\0\0009\0\a\0'\1\b\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\1\0\1\abg\tnone\16NormalFloat\1\0\1\abg\tnone\vNormal\16nvim_set_hl\bapi\bvim\0" },
